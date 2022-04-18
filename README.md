@@ -13,4 +13,4 @@ APi endpoints for a beverage vending maching using Object Oriented approach.
 2. Run `docker run -dp 8080:8080 bvm_server`
 
 ## Testing 
-This project uses swagger docs. Simply go to http://localhost:8080/api-docs/ to test the api
+This project uses swagger docs. After the app is running simply go to http://localhost:8080/api-docs/ to test the apis

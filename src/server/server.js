@@ -35,7 +35,6 @@ const start = () => {
                 contact: {
                     name: "swaastick"
                 },
-                servers: ["http://content:8080"]
             }
         },
         apis: ["./src/api/beverageVendingMachine.js"]

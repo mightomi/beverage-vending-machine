@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require('uuid');
-const {MIN_INGREDIENTS_REQUIRED} = require("../config");
+const {MIN_INGREDIENTS_QUANTITY_REQUIRED} = require("../config");
 
 class Inventory {
 
@@ -65,7 +65,7 @@ class Inventory {
         let availableIngredients = this.availableIngredients;
         for(let ingredient in availableIngredients) {
             let quantity = availableIngredients[ingredient];
-            if(quantity < MIN_INGREDIENTS_REQUIRED) {
+            if(quantity < MIN_INGREDIENTS_QUANTITY_REQUIRED) {
                 ingredientWhichAreLow.push(ingredient);
             }
         }
